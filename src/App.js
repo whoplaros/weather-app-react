@@ -1,16 +1,21 @@
-import logo from "./logo.svg";
+import React from "react";
 import "./App.css";
+
+import WeatherSearch from "./WeatherSearch";
 import Weather from "./Weather";
+import WeatherForecast from "./WeatherForecast";
+import Footer from "./Footer";
 
 function App() {
 	return (
 		<div className="App">
-			<header className="App-header">
-				<img src={logo} className="App-logo" alt="logo" />
+			<WeatherSearch />
 
-				<p>Holy shit! It's working!</p>
-				<Weather city="Paris" />
-			</header>
+			<main>
+				<Weather />
+				<WeatherForecast />
+			</main>
+			<Footer />
 		</div>
 	);
 }

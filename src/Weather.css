@@ -1,0 +1,37 @@
+.Weather .weatherAppCity {
+	margin: 0;
+	font-weight: 700;
+	font-size: 42px;
+	margin-bottom: -10px;
+}
+.Weather .weatherAppDetails {
+	font-size: 16px;
+	line-height: 25px;
+}
+.Weather #humidity,
+#windspeed {
+	color: #f65282;
+	font-weight: bold;
+}
+.Weather {
+	display: flex;
+	justify-content: space-between;
+}
+.Weather .weatherAppTemperatureContainer {
+	display: flex;
+	margin-top: 0px;
+}
+
+.Weather .weatherAppIcon {
+	font-size: 44px;
+	margin-top: 22px;
+}
+.Weather .weatherAppTemperature {
+	font-size: 88px;
+	font-weight: bold;
+	margin-left: 10px;
+}
+.Weather .weatherAppUnit {
+	margin-top: 16px;
+	font-size: 28px;
+}
