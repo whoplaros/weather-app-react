@@ -41,22 +41,23 @@ export default function WeatherSearch() {
 			<input type="submit" value="Search" className="search-form-button" />
 		</form>
 	);
-	if (loaded) {
-		return (
-			<div>
-				{form}
-				<ul>
-					<li>Temperature: {Math.round(weather.temperature)}°C</li>
-					<li>Description: {weather.description}</li>
-					<li>Humidity: {weather.humidity}%</li>
-					<li>Wind Speed: {weather.wind} km/h</li>
-					<li>
-						<img src={weather.icon} alt={weather.description} />{" "}
-					</li>
-				</ul>
-			</div>
-		);
-	} else {
-		return <div>{form}</div>;
-	}
+
+	// if (loaded) {
+	// 	return (
+	// 		<div>
+	// 			{form}
+	// 			<ul>
+	// 				<li>Temperature: {Math.round(weather.temperature)}°C</li>
+	// 				<li>Description: {weather.description}</li>
+	// 				<li>Humidity: {weather.humidity}%</li>
+	// 				<li>Wind Speed: {weather.wind} km/h</li>
+	// 				<li>
+	// 					<img src={weather.icon} alt={weather.description} />{" "}
+	// 				</li>
+	// 			</ul>
+	// 		</div>
+	// 	);
+	// } else {
+	return <div>{form}</div>;
+	// }
 }

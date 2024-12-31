@@ -7,11 +7,17 @@ export default function Footer() {
 			<div id="footer-container">
 				<p>
 					This app was coded by{" "}
-					<a target="_blank" href="https://asyouwishwebsites.com">
+					<a
+						target="_blank"
+						href="https://wesleyhoplarosportfolio.netlify.app/"
+					>
 						Wesley Hoplaros
 					</a>
 					. It is open-sourced on{" "}
-					<a target="_blank" href="https://github.com/whoplaros">
+					<a
+						target="_blank"
+						href="https://github.com/whoplaros/weather-app-react"
+					>
 						GitHub
 					</a>{" "}
 					and hosted on{" "}
